@@ -39,7 +39,15 @@
         - Choose the company and check shared connections
     
     - Portfolio
-    
-    - Email
+        - Look for free templates in mashup-template
+        - Free templates:
+            - [ZTM Board](https://github.com/zero-to-mastery/ZtM-Job-Board)
+            - [HTML 5UP](https://html5up.net/) (this is my favourite)
+            - [Free css](https://www.free-css.com/template-categories/portfolio)
+            - [Cruip](https://cruip.com/)
+            - [Bootstrap Templates](https://mdbootstrap.com/freebies/)
+            - [Creative Tim Templates](https://www.creative-tim.com/bootstrap-themes/free)
+        - [Some Inspiration](https://www.awwwards.com/websites/portfolio/)
 
+        
 
