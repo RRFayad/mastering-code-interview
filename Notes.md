@@ -63,5 +63,36 @@
                 Yourname
                 Your website or any public profile link
                 "
+
+- Where to find the jobs
+    - Linkedin
+    - Hackernews: 'Who's hiring'
+    - Wellfound (start ups)
+    - Weworkremotely
+    - triplebyte
+    - meetup - Networking
+    
+    - Searchs:
+        - in google: 'site:linkedin.com facebook recruiter' (supposing facebook is where I want)
+        - in linkedin
     
 
+
+## 3. Big O
+
+[TypeScript Solutions](https://github.com/CoffeelessProgrammer/Data-Structures-and-Algorithms-TS)
+
+- Environments:
+ - glot.io
+ - repl.it 
+
+ #### Section Overview
+ 
+ - Big O is one of the most important aspects to know
+    - [Big O Cheat Sheet](https://zerotomastery.io/cheatsheets/big-o-cheat-sheet/)
+
+#### 30. What's Good Code?
+
+- Good code is Readable and Scalable
+    - Readability - The code has to be clean, understandable
+    - Scalabiility - That's where Big O enters in scene
