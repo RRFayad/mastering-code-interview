@@ -106,3 +106,9 @@
 - "What's the Big O of the findNemo function?'
   - In or case, findNemo is a linear function, in a way that each element (in the arg array) linearly increments the performance time
   - So, its called O(n)
+
+#### 33. O(1)
+
+`const printFirstItem = (boxes) => console.log(boxes[0])`
+
+- This is a constant time or O(1)
