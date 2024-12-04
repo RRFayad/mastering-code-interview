@@ -142,3 +142,8 @@
 - So we always have to think in the Data Structuce and in the Algorithms we develop
 
 - Data Sctructures + Algorithms = Programs
+
+#### 46. O(n!)
+
+- If the code has this notation, it's certainly wrong
+  - It's a nested loop for every element
