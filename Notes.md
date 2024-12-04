@@ -116,11 +116,14 @@
 #### 38. Simplifying Big O
 
 - 4 Rules:
-  1. Worst Case
-  2. Remove COnstants
+
+  1. Worst Case Scenario
+
+  - If it's a loop, consider our element will be the last item
+
+  2. Remove Constants
+
+  - It's only abouy when we have something like O(2 + 3n + 100), it's simply O(n)
+
   3. Different terms for inputs
   4. Drop Non Dominants
-
-#### 38. Rule #1 - Worst Case
-
--
