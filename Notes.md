@@ -127,3 +127,7 @@
 
   3. Different terms for inputs
   4. Drop Non Dominants
+
+#### 42. O(n^2) - Quadratic time
+
+- Nested Loops (for inside a for)
