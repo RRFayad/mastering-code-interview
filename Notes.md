@@ -126,8 +126,19 @@
   - It's only abouy when we have something like O(2 + 3n + 100), it's simply O(n)
 
   3. Different terms for inputs
+
   4. Drop Non Dominants
+
+  - If we calculate O(n+n^2) it's simply O(n^2)
 
 #### 42. O(n^2) - Quadratic time
 
 - Nested Loops (for inside a for)
+
+#### 45. What Does This All Mean?
+
+- Imporant to always think in the scalability of the code;
+
+- So we always have to think in the Data Structuce and in the Algorithms we develop
+
+- Data Sctructures + Algorithms = Programs
