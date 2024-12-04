@@ -112,3 +112,15 @@
 `const printFirstItem = (boxes) => console.log(boxes[0])`
 
 - This is a constant time or O(1)
+
+#### 38. Simplifying Big O
+
+- 4 Rules:
+  1. Worst Case
+  2. Remove COnstants
+  3. Different terms for inputs
+  4. Drop Non Dominants
+
+#### 38. Rule #1 - Worst Case
+
+-
