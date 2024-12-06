@@ -159,3 +159,11 @@
   - Readable
   - Speed (Time Complexity)
   - Memory (Space complexity)
+
+#### 48. Space Complexity
+
+- What causes Space complexity?
+  - Variables
+  - Data Structures
+  - Function Call
+  - Allocations
