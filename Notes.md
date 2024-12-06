@@ -147,3 +147,15 @@
 
 - If the code has this notation, it's certainly wrong
   - It's a nested loop for every element
+
+#### 47. 3 Pillars Of Programming
+
+- WHat is good code? (Getting back to this topic)
+
+  1. Readable (we'll dive deep later)
+  2. Scalable
+
+- WHich code is the best?
+  - Readable
+  - Speed (Time Complexity)
+  - Memory (Space complexity)
