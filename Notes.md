@@ -167,3 +167,7 @@
   - Data Structures
   - Function Call
   - Allocations
+
+#### Summary
+
+- Big O says which algorithm is best, considering scalaility
