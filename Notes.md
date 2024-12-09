@@ -175,3 +175,45 @@
 ## 4. Interview - How to Solve Coding Problems
 
 #### 53. Section Overview
+
+- Remember: It's not the smartest coder who gets hired, it's the first one who answers good enough the question: "Are you able tosolve the companies problems?"
+
+#### 54. What are companies looking for?
+
+1. Analytic Skills
+
+- Analyze and think about solving problems;
+
+2. Coding Skills
+
+- Readable and Organized code;
+
+3. Technical Skills
+
+- Fundamentals;
+
+4. Communication Skills
+
+- Communication with the team
+
+#### 55. What We Need For Coding Interviews
+
+1. Data Structures
+
+   - Arrays
+   - Stacks
+   - Queues
+   - Linked Lists
+   - Trees
+   - Tries
+   - Graphs
+   - Hash Tables
+
+2. Algorithms
+
+   - Sorting
+   - Dynamic Programming
+   - BFS + DFS (Searching)
+   - Recursion
+
+   ![Tech Interview Mind Map](/images/Tech-Inerview-Mind-Map.png)
