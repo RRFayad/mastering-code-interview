@@ -230,9 +230,59 @@
     - e.g.: [1,2,4,4], 8 should return 4,4
 
 - My observations about the interviewee:
+
   1. Receives and understand the Problem
   2. Check the premises (like "Inputs will always be integers?", "Always in an array?", "Will they always be sorted?" etc)
   3. Interviewee is thinking out loud:
+
   - "I can loop each number, and then loop again. But it will be a quadratic notation solution"
   - "I can use binary search for pairs, but it would be a log solution"
   - "So I can scan the bigger and the smaller, whenever the sum is bigger than the number, I skip the bigger number (backwards) and if the sum is smaller than the number, I skip the smaller number. So it will be a linear solution"
+
+- Summary:
+
+  - Clarification of the problem
+  - Before Writing code, think out loud
+  - Analytical thinking through different solutions (before the code)
+  - Test it in real time
+
+### Cheat Sheet
+
+1. When the interviewer says the question, write down the key points at the top (i.e., sorted array). Make sure you have all the details. Show how organized you are.
+   Make sure you double-check: What are the inputs? What are the outputs?
+
+2. What is the most important value of the problem? Do you have time, space, and memory, etc.?
+
+3. What is the main goal?
+   Don't be annoying and ask too many questions.
+
+4. Start with the naive/brute force approach. First thing that comes into mind.
+   It shows that you’re able to think well and critically (you don't need to write this code, just speak about it).
+
+5. Tell them why this approach is not the best (i.e., O(n^2) or higher, not readable, etc...).
+
+6. Walk through your approach, comment things, and see where you may be able to break things.
+   Any repetition, bottlenecks like O(N^2), or unnecessary work? Did you use all the information the interviewer gave you? Bottleneck is the part of the code with the biggest Big O. Focus on that. Sometimes this occurs with repeated work as well.
+
+7. Before you start coding, walk through your code and write down the steps you are going to follow.
+
+8. Modularize your code from the very beginning. Break up your code into beautiful small pieces and add comments if you need to.
+
+9. Start actually writing your code now. Keep in mind that the more you prepare and understand what you need to code, the better the whiteboard will go. So never start a whiteboard interview not being sure of how things are going to work out. That is a recipe for disaster.
+
+10. Keep in mind: A lot of interviews ask questions that you won’t be able to fully answer on time.
+    So think: What can I show in order to demonstrate that I can do this and I am better than other coders? Break things up into functions (if you can’t remember a method, just make up a function, and you will at least have it there). Write something, and start with the easy part.
+
+11. Think about error checks and how you can break this code. Never make assumptions about the input.
+    Assume people are trying to break your code and that Darth Vader is using your function. How will you safeguard it? Always check for false inputs that you don’t want. Here is a trick: Comment in the code the checks that you want to do... write the function, then tell the interviewer that you would write tests now to make your function fail (but you won't need to actually write the tests).
+
+12. Don’t use bad/confusing names like i and j. Write code that reads well.
+
+13. Test your code: Check for no params, 0, undefined, null, massive arrays, async code, etc...
+    Ask the interviewer if we can make assumptions about the code. Can you make the answer return an error? Poke holes into your solution. Are you repeating yourself?
+
+14. Finally, talk to the interviewer about where you would improve the code.
+    Does it work? Are there different approaches? Is it readable? What would you google to improve? How can performance be improved? Possibly: Ask the interviewer what was the most interesting solution you have seen to this problem.
+
+15. If your interviewer is happy with the solution, the interview usually ends here.
+    It is also common that the interviewer asks you extension questions, such as how you would handle the problem if the whole input is too large to fit into memory, or if the input arrives as a stream. This is a common follow-up question at Google, where they care a lot about scale. The answer is usually a divide-and-conquer approach — perform distributed processing of the data and only read certain chunks of the input from disk into memory, write the output back to disk, and combine them later.
