@@ -217,3 +217,22 @@
    - Recursion
 
    ![Tech Interview Mind Map](/images/Tech-Inerview-Mind-Map.png)
+
+#### 56. Exercise: Google Interview
+
+- [Google Interview](https://www.youtube.com/watch?v=XKu_SEDAykw)
+
+  - Watch the Google Interview and see the applicatoin of all the steps in our [Cheat Sheet](/4.%20How%20to%20Solve%20Coding%20Problems/cheatsheet.pdf)
+
+- Given problem:
+
+  - You will have 2 args, an list of numbers, and a number. I want you ti find a pair of numbers in the list which adds up to the given number.
+    - e.g.: [1,2,4,4], 8 should return 4,4
+
+- My observations about the interviewee:
+  1. Receives and understand the Problem
+  2. Check the premises (like "Inputs will always be integers?", "Always in an array?", "Will they always be sorted?" etc)
+  3. Interviewee is thinking out loud:
+  - "I can loop each number, and then loop again. But it will be a quadratic notation solution"
+  - "I can use binary search for pairs, but it would be a log solution"
+  - "So I can scan the bigger and the smaller, whenever the sum is bigger than the number, I skip the bigger number (backwards) and if the sum is smaller than the number, I skip the smaller number. So it will be a linear solution"
