@@ -16,7 +16,7 @@
 const array1 = ["a", "b", "c", "x"];
 const array2 = ["z", "y", "c"];
 
-function isCommonItems(arr1: string[], arr2: string[]) {
+function containsCommonItem(arr1: string[], arr2: string[]) {
   let map = {};
   // Turn arr1 into an object where properties === items
 
@@ -35,4 +35,10 @@ function isCommonItems(arr1: string[], arr2: string[]) {
   return false;
 }
 
-console.log(isCommonItems(array1, array2));
+console.log(containsCommonItem(array1, array2));
+
+// Sometimes there are already some built in methods (it's ok if I don't know it on time)
+
+function containsCommonItem2(arr1: string[], arr2: string[]) {
+  return arr1.some((item) => arr2.includes(item));
+}

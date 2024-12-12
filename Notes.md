@@ -253,16 +253,13 @@
 
 2. What is the most important value of the problem? Do you have time, space, and memory, etc.?
 
-3. What is the main goal?
-   Don't be annoying and ask too many questions.
+3. What is the main goal? Don't be annoying and ask too many questions.
 
-4. Start with the naive/brute force approach. First thing that comes into mind.
-   It shows that you’re able to think well and critically (you don't need to write this code, just speak about it).
+4. Start with the naive/brute force approach. First thing that comes into mind. It shows that you’re able to think well and critically (you don't need to write this code, just speak about it).
 
 5. Tell them why this approach is not the best (i.e., O(n^2) or higher, not readable, etc...).
 
-6. Walk through your approach, comment things, and see where you may be able to break things.
-   Any repetition, bottlenecks like O(N^2), or unnecessary work? Did you use all the information the interviewer gave you? Bottleneck is the part of the code with the biggest Big O. Focus on that. Sometimes this occurs with repeated work as well.
+6. Walk through your approach, comment things, and see where you may be able to break things. Any repetition, bottlenecks like O(N^2), or unnecessary work? Did you use all the information the interviewer gave you? Bottleneck is the part of the code with the biggest Big O. Focus on that. Sometimes this occurs with repeated work as well.
 
 7. Before you start coding, walk through your code and write down the steps you are going to follow.
 
