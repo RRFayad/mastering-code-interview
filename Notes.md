@@ -248,38 +248,41 @@
 
 ### Cheat Sheet
 
-1. When the interviewer says the question, write down the key points at the top (i.e., sorted array). Make sure you have all the details. Show how organized you are.
-   Make sure you double-check: What are the inputs? What are the outputs?
+1. Write down the key points at the top. Make sure you have the Main Goal, Inputs and Outputs.
 
-2. What is the most important value of the problem? Do you have time, space, and memory, etc.?
+2. What is the most important value of the problem? Time, space, memory, etc.?
 
-3. What is the main goal? Don't be annoying and ask too many questions.
+3. Start with the naive/brute force approach.
 
-4. Start with the naive/brute force approach. First thing that comes into mind. It shows that you’re able to think well and critically (you don't need to write this code, just speak about it).
+   - Tell them why this approach is not the best (i.e., O(n^2) or higher, not readable, etc...).
 
-5. Tell them why this approach is not the best (i.e., O(n^2) or higher, not readable, etc...).
+4. Review he naive approach looking for improvment - where you may be able to break things, any repetition, bottlenecks like O(N^2)
 
-6. Walk through your approach, comment things, and see where you may be able to break things. Any repetition, bottlenecks like O(N^2), or unnecessary work? Did you use all the information the interviewer gave you? Bottleneck is the part of the code with the biggest Big O. Focus on that. Sometimes this occurs with repeated work as well.
+- Focus on the Big O and repeated work.
 
-7. Before you start coding, walk through your code and write down the steps you are going to follow.
+5. Before you start coding, write down the steps of the solution.
 
-8. Modularize your code from the very beginning. Break up your code into beautiful small pieces and add comments if you need to.
+6. Modularize your code into beautiful small pieces and add comments if you need to.
 
-9. Start actually writing your code now. Keep in mind that the more you prepare and understand what you need to code, the better the whiteboard will go. So never start a whiteboard interview not being sure of how things are going to work out. That is a recipe for disaster.
+7. Start writing your code now. Never start a whiteboard interview not being sure of how things are going to work out. That is a recipe for disaster.
 
-10. Keep in mind: A lot of interviews ask questions that you won’t be able to fully answer on time.
-    So think: What can I show in order to demonstrate that I can do this and I am better than other coders? Break things up into functions (if you can’t remember a method, just make up a function, and you will at least have it there). Write something, and start with the easy part.
+8. If can't answer everything, all the broken steps demonstrates skill
 
-11. Think about error checks and how you can break this code. Never make assumptions about the input.
-    Assume people are trying to break your code and that Darth Vader is using your function. How will you safeguard it? Always check for false inputs that you don’t want. Here is a trick: Comment in the code the checks that you want to do... write the function, then tell the interviewer that you would write tests now to make your function fail (but you won't need to actually write the tests).
+9. Think about error checks and how you can break this code. Never make assumptions about the input.
 
-12. Don’t use bad/confusing names like i and j. Write code that reads well.
+- Comment in the code the checks that you want to do...
+- Rell the interviewer that you would write tests now to make your function fail (but you won't need to actually write the tests).
 
-13. Test your code: Check for no params, 0, undefined, null, massive arrays, async code, etc...
-    Ask the interviewer if we can make assumptions about the code. Can you make the answer return an error? Poke holes into your solution. Are you repeating yourself?
+10. Write code that reads well (good naming).
 
-14. Finally, talk to the interviewer about where you would improve the code.
-    Does it work? Are there different approaches? Is it readable? What would you google to improve? How can performance be improved? Possibly: Ask the interviewer what was the most interesting solution you have seen to this problem.
+11. Test your code: Check for no params, 0, undefined, null, massive arrays, async code, etc...
 
-15. If your interviewer is happy with the solution, the interview usually ends here.
-    It is also common that the interviewer asks you extension questions, such as how you would handle the problem if the whole input is too large to fit into memory, or if the input arrives as a stream. This is a common follow-up question at Google, where they care a lot about scale. The answer is usually a divide-and-conquer approach — perform distributed processing of the data and only read certain chunks of the input from disk into memory, write the output back to disk, and combine them later.
+    - Ask the interviewer if we can make assumptions about the code.
+
+12. Finally, talk to the interviewer about where you would improve the code.
+
+    - Are there different approaches? Testing / safe guarding?
+    - Maybe ask some feedback or what was the most interesting solution you have seen to this problem.
+
+13. If your interviewer is happy with the solution, the interview usually ends here.
+    - A common question is "What if the input is huge?" The answer is usually "perform distributed processing of the data and only read certain chunks of the input from disk into memory, write the output back to disk, and combine them later".
