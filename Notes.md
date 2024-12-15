@@ -334,3 +334,19 @@
   - Persistent storage for files, applications, and operating systems (e.g., HDD, SSD).
   - Slower than RAM but retains data even when the computer is powered off.
   - Used for long-term data storage.
+
+#### 65. Data Structures In Different Languages
+
+- Main Data structures
+
+  - Arrays
+  - Stacks
+  - Queues
+  - Linked Lists
+  - Trees
+  - Tries
+  - Graphs
+  - Hash Tables
+
+- Each language has its specific data types
+  - JS is mainly arrays and objects, so we have to create our own data structures
