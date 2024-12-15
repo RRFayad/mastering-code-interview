@@ -286,3 +286,13 @@
 
 13. If your interviewer is happy with the solution, the interview usually ends here.
     - A common question is "What if the input is huge?" The answer is usually "perform distributed processing of the data and only read certain chunks of the input from disk into memory, write the output back to disk, and combine them later".
+
+## 5. Data Structures
+
+#### 62. Section Overview
+
+- Data Structures are collections of values
+
+- Algorithms are the processes we put into place to maniputale data
+
+- Libraries and technologies change, these are atemporal fundamentals
