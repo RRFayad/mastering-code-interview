@@ -350,3 +350,12 @@
 
 - Each language has its specific data types
   - JS is mainly arrays and objects, so we have to create our own data structures
+
+#### 66. Operations On Data Structures
+
+- Insertion
+- Deletion
+- Traversal (access exactly one data item to be processes)
+- Searching
+- Sorting
+- Access
