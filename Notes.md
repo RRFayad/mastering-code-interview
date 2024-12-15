@@ -296,3 +296,13 @@
 - Algorithms are the processes we put into place to maniputale data
 
 - Libraries and technologies change, these are atemporal fundamentals
+
+#### 63. What Is A Data Structure?
+
+- Data Struture are data collections
+
+- Each data structure has its own finality
+
+  - Considering the trade off in time complexity and space complexity
+
+- **How to Build** and **How to Use** data structures are the main aspect of learning it
