@@ -383,3 +383,11 @@ console.log(strings);
 strings.splice(2, 0, "alien"); // 0(n)
 console.log(strings);
 ```
+
+#### 68. Static vs Dynamic Arrays
+
+- There are static arrays, which has the length delimited
+
+- Dynamic arrays expands
+  - Just to know, sometimes append can take o(n) in dynamic arrays;
+  - The reason for that is that as the machine allocates the memory space, when we increase the array size, the machine may have to loop through all elements to move them to another space of memory
