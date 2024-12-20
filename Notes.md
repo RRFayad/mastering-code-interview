@@ -391,3 +391,29 @@ console.log(strings);
 - Dynamic arrays expands
   - Just to know, sometimes append can take o(n) in dynamic arrays;
   - The reason for that is that as the machine allocates the memory space, when we increase the array size, the machine may have to loop through all elements to move them to another space of memory
+
+#### 70. Optional: Classes In Javascript
+
+- reference types and primitive type
+
+  - reference types (object, arrays etc)
+
+- Context vs Scope
+
+  - Scope is defined by the curly braces
+
+- Context
+
+  - this shows the context, it's the 'current object'
+  - e.g.:
+
+    ```javascript
+    const myObject = {
+      a: () => console.log(this),
+    };
+
+    myObject.a(); //
+    ```
+
+- Instantiation
+  - It's to copy the structure of an object (a class is a form of instantiation)
