@@ -80,8 +80,8 @@ const newArray = new MyArray();
 
 const string = "Hi my name is Renan";
 
-const reverse1 = (str) => {
-  const reverseArr = [];
+const reverse1 = (str: string): string => {
+  const reverseArr: string[] = [];
 
   for (let i = str.length - 1; i >= 0; i--) {
     reverseArr.push(str[i]);
@@ -94,4 +94,18 @@ const reverse1 = (str) => {
 
 // Clenaer solution using Built in methods
 const reverse2 = (str) => str.split("").reverse().join("");
-console.log("REVERSE 2", reverse2(string));
+// console.log("REVERSE 2", reverse2(string));
+
+//---------------------------76 - Exercise - Merging sorted arrays----------------------------
+
+const mergeAndSort = (arr1: number[], arr2: number[]) => {
+  if (arr1.length === 0) return arr2;
+  if (arr2.length === 0) return arr1;
+
+  return [...arr1, ...arr2].sort((a, b) => a - b);
+};
+
+const arr1 = [0, 3, 4, 31];
+const arr2 = [4, 6, 30];
+
+// console.log(mergeAndSort(arr1, arr2));
