@@ -48,3 +48,7 @@
 
   - So in the code we can see the logic behind hash table
     - And its possible to understand why tis O(1)
+
+#### 88 keys()
+
+- When we get all keys, its O(n2),why is certainly a huge disadvantage

@@ -9,7 +9,7 @@ let user = {
 
 // O(1)
 user.age;
-user.scream();
+// user.scream();
 
 // #### 84. Hash Tables in DIfferent Languages
 
@@ -39,6 +39,8 @@ class HashTable {
     if (!this.data[hash]) {
       this.data[hash] = [];
     }
+
+    //He did not mention, but probably a check if the value exists
     this.data[hash].push([key, value]);
   }
 
@@ -50,9 +52,34 @@ class HashTable {
       : null;
     return keyValue ? keyValue[1] : null;
   }
+
+  // O (n2) - Terrible
+  keys() {
+    const keys = [];
+
+    for (let i = 0; i < this.data.length; i++) {
+      if (this.data[i]) {
+        const currentDataBucket = this.data[i];
+        if (currentDataBucket.length === 1) {
+          keys.push(currentDataBucket[0][0]);
+        } else {
+          for (let j = 0; j < currentDataBucket.length; j++) {
+            keys.push(currentDataBucket[j][0]);
+          }
+        }
+      }
+    }
+
+    return keys;
+  }
 }
 
 const myHashTable = new HashTable(50);
 myHashTable.set("grapes", 10000);
-const grapesToBuy = myHashTable.get("grapes");
+myHashTable.set("asd", 651546);
+myHashTable.set("adsfsdf", 651685861);
+myHashTable.set("grapes", 10000);
+
 // console.log(`I need to buy ${grapesToBuy} grapes!`);
+
+console.log(myHashTable.keys());
