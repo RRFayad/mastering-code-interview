@@ -41,4 +41,10 @@
   - Maps have unique keys
 
 - js Also has new Set()
+
   - Set is a Map with unique values, and keys are not stored
+
+  #### 85 & 86 - Implementing a Hash Table
+
+  - So in the code we can see the logic behind hash table
+    - And its possible to understand why tis O(1)
